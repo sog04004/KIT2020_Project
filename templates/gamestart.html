@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>게임 시작</h2>
+{{ data.name }}님 반갑습니다. (HP {{ data.hp }})으로 게임을 시작 합니다.<br>
+협곡의 여정 중에 다리우스를 만났습니다.<br>
+<a href="{{ url_for('action_num', num=1) }}">1. 싸운다 </a> <br>
+<a href="{{ url_for('action_num', num=2) }}">2. 도망간다</a>
+</body>
+</html>
